@@ -1,32 +1,21 @@
 ﻿using System;
 
-class Icalc
+
+// So schreibst du einen Kommentar
+/* Alle Zeichen die in dieser Kommtar-Variante stehen werden als Kommentar Interpretiert 
+änderung der Schüler teil 2*/
+namespace MeinErstesVSProjekt
 {
-	static void Main(string[] args)
-	{
-		string wert1, wert2, wert;
-		double zahl1, zahl2;
-
-		wert1 = args[0];
-
-		wert = args[1];
-
-		wert2 = args[2];
-
-		zahl1 = Double.Parse(wert1);
-		zahl2 = Double.Parse(wert2);
-
-		if (wert == "+")
-			Console.WriteLine(zahl1 + zahl2);
-
-		else if (wert == "-")
-			Console.WriteLine(zahl1 - zahl2);
-		else if (wert == "*")
-			Console.WriteLine(zahl1 * zahl2);
-		else if (wert == "/")
-			Console.WriteLine(zahl1 / zahl2);
+    class Tutorial1
+    {
+        /* Mit 'static' werden Methoden bezeichnet die beim Aufruf kein spezifisches Objekt voraussetzen, 
+        und 'void' beschreibt eine Methode ohne Rückgabewert. 
+        'Main' ist eine Methode von herrausragender Bedeutung. Wenn Laufzeitumgebung der EXE-Datei startet, wird zuerst 'Main' ausgeführt*/
+        static void Main(string[] args)
+        {
 
 
-
-	}
+           
+        }
+    }
 }
