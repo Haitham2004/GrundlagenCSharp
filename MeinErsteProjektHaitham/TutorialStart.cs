@@ -4,7 +4,8 @@
 // So schreibst du einen Kommentar
 /* Alle Zeichen die in dieser Kommtar-Variante stehen werden als Kommentar Interpretiert 
 änderung der Schüler teil 2*/
-namespace MeinErstesVSProjekt
+namespace MeinErsteProjektHaitham
+
 {
     class Tutorial1
     {
