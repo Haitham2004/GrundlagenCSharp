@@ -7,6 +7,8 @@ namespace Calculator
         static void Main(string[] args)
         {
             // Deklariere zwei Variablen und initialisiere sie mit 0.
+            int num1 = 0;
+            int num2 = 0;
 
             //Gebe einen Titel aus
             Console.WriteLine("Taschen Reschner");
@@ -23,15 +25,15 @@ namespace Calculator
 
             //Fordere den Benutzer auf ein Option zu wählen(Multiplikation, Division , Addition, Subtraktion).
             Console.WriteLine("Wähl eine Option von der Liste");
-            Console.WriteLine("\ta Addieren");
-            Console.WriteLine("\tb Subtrahieren");
-            Console.WriteLine("\tc Multiplizieren");
-            Console.WriteLine("\td Dividieren");
+            Console.WriteLine("\ta - Addieren");
+            Console.WriteLine("\ts - Subtrahieren");
+            Console.WriteLine("\tm - Multiplizieren");
+            Console.WriteLine("\td - Dividieren");
             Console.WriteLine("Wähle eine Option");
 
 
             //Warte bis der Benutzer reagiert bevor du die Konsole Schließen.
-            Console.WriteLine("Klick eine Taste um den Taschen Rescgner zu beenden...");
+            Console.WriteLine("Klick eine Taste um den Taschen Reschner zu beenden...");
             Console.ReadKey();
 
         }
