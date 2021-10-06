@@ -14,14 +14,12 @@ namespace Calculator
             Console.WriteLine("Taschen Reschner");
 
             //Fordere den Benutzer auf die erste Zahl einzugeben.
-            Console.WriteLine("Tippen auf ein zahl und Drück Enter bevor die SEK kommt");
-            string eingnum1 = "";
-            eingnum1 = Console.ReadLine();
+            Console.WriteLine("Tippen Sie eine Zahl ein und drücken Sie Enter");
+            double eingnum1 = Convert.ToDouble(Console.ReadLine());
 
             //Fordere den Benutzer auf die weitere Zahl einzugeben.
             Console.WriteLine("wähl eine zahl und dück Enter");
-            string eingnum2 = "";
-            eingnum2 = Console.ReadLine();
+            double eingnum2 = Convert.ToDouble(Console.ReadLine());
 
             //Fordere den Benutzer auf ein Option zu wählen(Multiplikation, Division , Addition, Subtraktion).
             Console.WriteLine("Wähl eine Option von der Liste");
@@ -31,6 +29,34 @@ namespace Calculator
             Console.WriteLine("\td - Dividieren");
             Console.WriteLine("Wähle eine Option");
 
+            string auswahl = Console.ReadLine().ToLower();
+            double ergbnis;
+
+            if (auswahl == "a")
+            {
+                ergbnis = eingnum1 + eingnum2;
+            }
+
+            else if (auswahl == "s")
+            {
+                ergbnis = eingnum1 - eingnum2;
+            }
+
+            else if (auswahl == "m")
+            {
+                ergbnis = eingnum1 * eingnum2;
+            }
+
+            else if (auswahl == "d")
+            {
+                ergbnis = eingnum1 / eingnum2;
+            }
+
+            else
+                Console.WriteLine("Auswahl nicht Korrekt");
+
+            ergbnis = double.NaN;
+            Console.WriteLine("Das Ergbnis ist:(0,10)",ergbnis);
 
             //Warte bis der Benutzer reagiert bevor du die Konsole Schließen.
             Console.WriteLine("Klick eine Taste um den Taschen Reschner zu beenden...");

@@ -4,9 +4,11 @@ namespace Tutorial
 {
     class Program
     {
+        public static object Tutorialbibliothek { get; private set; }
+
         static void Main(string[] args)
         {
-            Tutorialbibliothek.KommentierterCode.Tutorial1();
+            TutorialBibliothek.KommentierterCode.Tutorial4();
         }
     }
 }
