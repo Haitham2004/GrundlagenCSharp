@@ -39,7 +39,7 @@ namespace Finanztabelle
 
 
 
-            for (int i = 1; i <= 43; i++)
+            for (int i = 1; i <= 45; i++)
             {
                 Console.Write("-");
             }
@@ -56,11 +56,11 @@ namespace Finanztabelle
                 Console.WriteLine($"{jahr,4} {Kn,10:F2} {Z,8:F2} {KZ,10:F2} {B,8:F2} ");
                 Kn = Kn + Z;
             }
-            for (int i = 1; i <= 43; i++)
+            for (int i = 1; i <= 45; i++)
             {
                 Console.Write("-");
             }
-
+            
 
             Console.ReadKey();
 
