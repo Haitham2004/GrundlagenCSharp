@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchleifenAufgabe9", "Schlei
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchleifenAufgabe10", "SchleifenAufgabe10\SchleifenAufgabe10.csproj", "{FC548EE4-6BC2-42B0-9A6E-E3807C6EFCA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datenfelder", "Datenfelder\Datenfelder.csproj", "{D8039D9F-A770-4002-BBAD-D56E3097153A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datenfelder", "Datenfelder\Datenfelder.csproj", "{D8039D9F-A770-4002-BBAD-D56E3097153A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bubblesort", "bubblesort\bubblesort.csproj", "{A032EB7C-F3D6-4BBD-8181-7791A1EBC3CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{D8039D9F-A770-4002-BBAD-D56E3097153A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8039D9F-A770-4002-BBAD-D56E3097153A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8039D9F-A770-4002-BBAD-D56E3097153A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A032EB7C-F3D6-4BBD-8181-7791A1EBC3CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A032EB7C-F3D6-4BBD-8181-7791A1EBC3CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A032EB7C-F3D6-4BBD-8181-7791A1EBC3CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A032EB7C-F3D6-4BBD-8181-7791A1EBC3CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
