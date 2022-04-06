@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datenfelder", "Datenfelder\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bubblesort", "bubblesort\bubblesort.csproj", "{A032EB7C-F3D6-4BBD-8181-7791A1EBC3CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methode", "Methode\Methode.csproj", "{430D9601-F8DA-48F4-BAE2-28AB1059877E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methode", "Methode\Methode.csproj", "{430D9601-F8DA-48F4-BAE2-28AB1059877E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotelcheck", "Hotelcheck\Hotelcheck.csproj", "{829E6578-85B3-494A-869A-363B1B470F39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{430D9601-F8DA-48F4-BAE2-28AB1059877E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{430D9601-F8DA-48F4-BAE2-28AB1059877E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{430D9601-F8DA-48F4-BAE2-28AB1059877E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{829E6578-85B3-494A-869A-363B1B470F39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829E6578-85B3-494A-869A-363B1B470F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829E6578-85B3-494A-869A-363B1B470F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829E6578-85B3-494A-869A-363B1B470F39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
