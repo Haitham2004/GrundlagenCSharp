@@ -13,12 +13,13 @@ namespace Hotelcheck
             double[] rechnungsbetrag = { 329.84, 247.38, 82.46, 989.52 };
             bool kundencheck = false;
             int i = 0;
-            //string eingabe_string;
-            //short eingabe_short = 0;
-            //bool Falsch = false;
             bool flag = false;
             do
             {
+                Console.WriteLine("------------------------------------------------------------------------------------\n" +
+                                 "                              >>> Hotel-Check In <<<\n" +
+                                 "------------------------------------------------------------------------------------\n\n");
+                Console.WriteLine("Herzlich Willkommen​");
                 Console.WriteLine("Bitte geben Sie die Zimmernummer oder Nachname");
                 string eingabe_string = Console.ReadLine();
                 short eingabe_short;
@@ -37,6 +38,7 @@ namespace Hotelcheck
 
                     if (daten.Item1 == true)
                     {
+                        
 
                     }
                     else
