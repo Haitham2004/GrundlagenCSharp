@@ -6,7 +6,7 @@ namespace Hotelcheck
     {
         static void Main(string[] args)
         {
-            
+            // Haitham Mansour und Jowan
             short[] zimmernummer = { 23, 32, 45, 3 };
             string[] vorname = { "Paul", "Ringo", "John", "George" };
             string[] nachname = { "McCartney", "Starr", "Lennon", "Harrison" };
@@ -38,7 +38,7 @@ namespace Hotelcheck
 
 
                 flag = short.TryParse(eingabe_string, out eingabe_short);
-
+                
 
 
 
