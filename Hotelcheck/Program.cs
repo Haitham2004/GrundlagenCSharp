@@ -6,6 +6,7 @@ namespace Hotelcheck
     {
         static void Main(string[] args)
         {
+            
             short[] zimmernummer = { 23, 32, 45, 3 };
             string[] vorname = { "Paul", "Ringo", "John", "George" };
             string[] nachname = { "McCartney", "Starr", "Lennon", "Harrison" };
@@ -25,9 +26,15 @@ namespace Hotelcheck
                 string eingabe_string = Console.ReadLine();
                 short eingabe_short;
                 
-                Console.WriteLine("------------------------------------------------------------------------------------\n" +
-                                "                              >>> Hotel-Check out <<<\n" +
-                                "------------------------------------------------------------------------------------\n\n");
+                if(eingabe_string=="Exit"|| eingabe_string == "exit")
+                {
+                    Console.WriteLine("------------------------------------------------------------------------------------\n" +
+                "                              >>> Hotel-Check out <<<\n" +
+                "------------------------------------------------------------------------------------\n\n");
+                    Console.ReadKey();
+                    Environment.Exit(0);
+                }
+
 
 
                 flag = short.TryParse(eingabe_string, out eingabe_short);
@@ -47,10 +54,12 @@ namespace Hotelcheck
                         string nachname_gast = daten.Item4;
                         short übernachtungen_gast = daten.Item5;
                         double rechnungsbetrag_gast = daten.Item6;
+
+                        Console.WriteLine($"Zimmernummer:\t{zimmernummer_gast}\nVorname:\t{vorname_gast}\nNachname:\t{nachname_gast}\nÜbernachtungen:\t{übernachtungen_gast}\nRechnungsbetrag:\t{rechnungsbetrag_gast}\n");
                     }
                     else
                     {
-                        Console.WriteLine("kein Item gefunden");
+                        Console.WriteLine("kein Daten gefunden");
                     }
 
 
@@ -70,10 +79,11 @@ namespace Hotelcheck
                         short übernachtungen_gast = daten.Item5;
                         double rechnungsbetrag_gast = daten.Item6;
 
+                        Console.WriteLine($"Zimmernummer:\t{zimmernummer_gast}\nVorname:\t{vorname_gast}\nNachname:\t{nachname_gast}\nÜbernachtungen:\t{übernachtungen_gast}\nRechnungsbetrag:\t{rechnungsbetrag_gast}\n");
                     }
                     else
                     {
-                        Console.WriteLine("kein Item gefunden");
+                        Console.WriteLine("kein Daten gefunden");
 
 
 
@@ -83,10 +93,8 @@ namespace Hotelcheck
 
                 }
 
-                if (eingabe_string == "exit")
-                {
-                    Environment.Exit(0);
-                }
+                Console.ReadKey();
+                Console.Clear();
 
             } while (true);
 
